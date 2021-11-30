@@ -1,7 +1,6 @@
 import React from 'react';
-//import IdCard from './components/IdCard'
 import Greetings from './components/Greetings'
-//import logo from './logo.svg';
+import Random from './components/Random'
 import './App.css';
 import ProfileList from './components/ProfileList';
 
@@ -9,8 +8,12 @@ function App() {
   return (
     <div className="App">
      <ProfileList />
+
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
+
+      <Random min={1} max={6}/>
+      <Random min={1} max={100}/>
     </div>
   );
 }
