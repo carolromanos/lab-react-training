@@ -13,6 +13,10 @@ import maxence from './assets/images/maxence.png';
 import maxence_glasses from './assets/images/maxence-glasses.png';
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
+import NumbersTable from './components/NumbersTable';
+import profiles from './data/berlin.json';
+import FaceBook from './components/FaceBook';
+import SignupPage from './components/SignUp Page/SignupPage'
 
 function App() {
   return (
@@ -89,7 +93,11 @@ function App() {
           'https://randomuser.me/api/portraits/men/2.jpg',
         ]}
       />
+      <NumbersTable limit={12} />
+      <FaceBook />
+      <SignupPage />
     </div>
+    
   );
 }
 
