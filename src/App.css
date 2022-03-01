@@ -43,11 +43,124 @@
   flex-direction: row;
 }
 
-.credit-cards{
+
+.card {
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+}
+.right {
+  text-align: left;
+  padding-left: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+div {
+  margin: 10px 0;
+}
+
+.box-color {
+  height: 80px;
+  width: 95vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.credit-card {
+  border-radius: 5px;
+  width: 40vw;
+  height: 20vw;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.credit-card .card-type {
+  padding: 0 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.credit-card img {
+  width: 10vw;
+  height: auto;
+}
+
+.card-number {
+  font-size: 2em;
+}
+
+.card-owner {
+  text-align: left;
+  padding: 0 15px;
+}
+.driver-license {
+  display: flex;
+  justify-content: space-around;
+  width: 95vw;
+  height: auto;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(7, 75, 163);
+}
+.round {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+}
+.like {
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  
+}
+.clickable-picture {
+  width: 95vw;
+  height: auto;
+  margin: 15px 0;
+}
 
- 
+.carousel {
+  display: flex;
+  flex-direction: column;
+}
+
+.iteration12 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numbers-table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+.red {
+  background-color: red;
+}
+
+.white {
+  background-color: white;
+ }
+
+.left img {
+  width: 20vw;
+  height: auto;
+}
+.facebook-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blue {
+  background-color: rgb(129, 190, 255);
 }
